@@ -9,6 +9,7 @@ import {
 } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import Carousel from 'react-native-snap-carousel';
+import SplashScreen from 'react-native-splash-screen';
 import { MoviePoster } from '../components/MoviePoster';
 import { useMovies } from '../hooks/useMovies';
 import { HorizontalSlider } from '../components/HorizontalSlider';
@@ -19,6 +20,10 @@ import { GradientContext } from '../context/GradientContext';
 const { width: windowWidth } = Dimensions.get('window');
 
 const HomeScreen = () => {
+
+  useEffect(() => {
+    SplashScreen.hide();
+  }, []);
 
 
   const { isLoading, nowPlaying, popular, topRated, upcoming } = useMovies();

@@ -1,7 +1,7 @@
 package com.peliculasapp;
 
 // // react-native-splash-screen >= 0.3.1
-// import org.devio.rn.splashscreen.SplashScreenReactPackage;
+import org.devio.rn.splashscreen.SplashScreenReactPackage;
 
 import android.app.Application;
 import android.content.Context;
