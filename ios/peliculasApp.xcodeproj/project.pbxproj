@@ -13,6 +13,7 @@
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		88398ABE43DA5FB703A965AD /* libPods-peliculasApp-peliculasAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B6E0385E7A9E336DE79B0A6 /* libPods-peliculasApp-peliculasAppTests.a */; };
+		E61FBF19262BA541008ADCD0 /* icono peliculas.png in Resources */ = {isa = PBXBuildFile; fileRef = E61FBF18262BA540008ADCD0 /* icono peliculas.png */; };
 		E70A0E9ADB5E8B4D2D1569D1 /* libPods-peliculasApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A10EA1045B09C7762F70279F /* libPods-peliculasApp.a */; };
 /* End PBXBuildFile section */
 
@@ -59,6 +60,7 @@
 		E60FDF7C262A54B700F3D8EF /* AntDesign.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = AntDesign.ttf; path = "../../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf"; sourceTree = "<group>"; };
 		E60FDF7D262A54B700F3D8EF /* Foundation.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Foundation.ttf; path = "../../node_modules/react-native-vector-icons/Fonts/Foundation.ttf"; sourceTree = "<group>"; };
 		E60FDF7E262A54B700F3D8EF /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = FontAwesome5_Regular.ttf; path = "../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf"; sourceTree = "<group>"; };
+		E61FBF18262BA540008ADCD0 /* icono peliculas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icono peliculas.png"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -107,6 +109,7 @@
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
+				E61FBF18262BA540008ADCD0 /* icono peliculas.png */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
 			name = peliculasApp;
@@ -282,6 +285,7 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				E61FBF19262BA541008ADCD0 /* icono peliculas.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
